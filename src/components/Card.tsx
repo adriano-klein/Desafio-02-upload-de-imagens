@@ -36,7 +36,7 @@ export function Card({ data, viewImage }: CardProps): JSX.Element {
           onClick={() => viewImage(data.url)}
           onLoad={() => setIsLoading(false)}
           cursor="pointer"
-        />
+          />
       </Skeleton>
 
       <Box pt={5} pb={4} px={6}>
